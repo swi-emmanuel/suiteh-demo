@@ -65,6 +65,9 @@
 .btn-success {
   background-color: #2FABE3;
 }
+.btn-success:hover {
+  background-color: #1B7BB2;
+}
 
 /* page content */
 .page-content {
@@ -72,3 +75,13 @@
 }
 
 /* TYPOGRAPHY */
+
+
+
+
+
+
+/* LOG IN page background color */
+.page-login .page-content .page-inner {
+  /*background: red;*/
+}
