@@ -1,0 +1,74 @@
+/* Write your SUITE H custom CSS here */
+
+
+/* DASHBOARD */
+
+/* logo */
+.navbar .logo-box {
+  background: #38ACE1;
+}
+
+/* sidebar */
+.sidebar {
+  background: #f5f5f5;
+}
+.sidebar-header {
+  background: #FFFFFF;
+}
+.menu.accordion-menu > li.active > a, .menu.accordion-menu > li.active.open > a { 
+  background: #333333;
+}
+.menu {
+  background: #FFFFFF;
+}
+/* hover state */
+.menu.accordion-menu > li > a:hover {
+  background:#38ACE1;
+}
+.menu.accordion-menu a {
+  color: #135780; 
+}
+
+
+
+/* sidebar profile details */
+.sidebar-profile span {
+  color: #666;
+}
+
+
+
+/* changed sidebar sub menu */
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover > a, .horizontal-bar .accordion-menu > li.droplink:hover > a, .menu.accordion-menu ul, .menu.accordion-menu li.open > a, .hover-menu .accordion-menu > li.droplink:hover > a { 
+  background: #2FABE3;
+  color: #ffffff;
+}
+
+.menu.accordion-menu ul li a { 
+  color: #fff;
+}
+
+
+.menu.accordion-menu ul li a:hover, .menu.accordion-menu ul li.active a {
+  background: #38ACE1;
+  color: #fff;
+}
+.menu.accordion-menu ul {
+  background: #135780;
+}
+
+/* changed badge color to Suite H blue */
+.badge.badge-success {
+  background: #2FABE3;
+}
+/* changed button color to Suite H blue */
+.btn-success {
+  background-color: #2FABE3;
+}
+
+/* page content */
+.page-content {
+  background: #f5f5f5;
+}
+
+/* TYPOGRAPHY */
