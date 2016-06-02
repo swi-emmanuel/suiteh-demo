@@ -10,23 +10,38 @@
 
 /* sidebar */
 .sidebar {
-  background: #f5f5f5;
+  background:#1F2432;
 }
 .sidebar-header {
-  background: #FFFFFF;
+  background: #1F2432;
 }
+/* active sidebar item bg */
 .menu.accordion-menu > li.active > a, .menu.accordion-menu > li.active.open > a { 
-  background: #333333;
+  background: #2FABE3;
 }
 .menu {
-  background: #FFFFFF;
+  background: #1F2432;
 }
-/* hover state */
+/* sidebar item hover state */
 .menu.accordion-menu > li > a:hover {
-  background:#38ACE1;
+  background:#242D3E;
 }
 .menu.accordion-menu a {
-  color: #135780; 
+  color: #999; 
+}
+
+
+
+/* changed sidebar sub menu */
+.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover > a, .horizontal-bar .accordion-menu > li.droplink:hover > a, .menu.accordion-menu ul, .menu.accordion-menu li.open > a, .hover-menu .accordion-menu > li.droplink:hover > a { 
+  background: #242D3E;
+  color: #ffffff;
+}
+.menu.accordion-menu ul li a { 
+  color: #fff;
+}
+.menu.accordion-menu ul {
+  background: #242D3E;
 }
 
 
@@ -38,24 +53,34 @@
 
 
 
-/* changed sidebar sub menu */
-.small-sidebar:not(.page-sidebar-fixed) .accordion-menu li.droplink:hover > a, .horizontal-bar .accordion-menu > li.droplink:hover > a, .menu.accordion-menu ul, .menu.accordion-menu li.open > a, .hover-menu .accordion-menu > li.droplink:hover > a { 
-  background: #2FABE3;
-  color: #ffffff;
+
+/* pop up menu with profile image and links */
+.menu-wrap a {
+  color: #999;
+}
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+  color: #2FABE3;
 }
 
-.menu.accordion-menu ul li a { 
-  color: #fff;
+
+
+
+
+/* replace Profile Cover Image with a custom image*/
+.profile-cover {
+  background: url("../images/profile-cover-sunset.jpg");
+  background-position: center center;
 }
 
 
-.menu.accordion-menu ul li a:hover, .menu.accordion-menu ul li.active a {
-  background: #38ACE1;
-  color: #fff;
-}
-.menu.accordion-menu ul {
-  background: #135780;
-}
+
+
+
+
+
+
+
 
 /* changed badge color to Suite H blue */
 .badge.badge-success {
@@ -81,7 +106,38 @@
 
 
 
-/* LOG IN page background color */
-.page-login .page-content .page-inner {
-  /*background: red;*/
+/* LOG IN */
+/* background color */
+.page-login .page-content .page-inner,
+.page-register .page-content .page-inner {
+  background: url("../images/graphic-login.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+/* change log in box background color */
+.login-box {
+  box-sizing: border-box;
+  background:#fff;
+  padding:20px;
+  /*max-width: 600px;
+  min-width: 320px;*/
+}
+/* Resize logo to fix inside login box */
+.logo-suiteh-login {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+
+
+
+
+
+
+/* Responsive Tables */
+.table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding:20px 15px!important;  
+}
+
