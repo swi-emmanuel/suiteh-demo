@@ -5,8 +5,16 @@
 
 /* logo */
 .navbar .logo-box {
-  background: #38ACE1;
+  background: #38ACE1;/*blue*/
 }
+.navbar .logo-box img {
+  display: block;
+  max-width: 80%;
+  margin: 6px auto 0 auto;/* little  */
+}
+
+
+
 
 /* sidebar */
 .sidebar {
@@ -99,7 +107,22 @@
   background: #f5f5f5;
 }
 
+
+
+
+
+
+
+
+
 /* TYPOGRAPHY */
+body {
+  font-family: '', sans-serif;
+}
+
+
+
+
 
 
 
